@@ -1,119 +1,83 @@
-body {
-    background-color: rgb(30, 211, 114);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    gap: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Verdana, Geneva, Tahoma,sans-serif;
+        background-color: aquamarine;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .BOXX {
+        display: flex;
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .card img{
+        width:100px;
+        height:auto;
+    }
+
+.darkgrey{
+    color:darkgray;
 }
 
-
-
-
-.all {
-background-color: white;
-width: 600px;
-height: 580px;
-border-radius: 10px;
-margin-left: 150px;
-align-items: center;
-justify-content: center;
-box-sizing: border-box;
-}
-
-h2{
-    font-size: 50px;
-    color:red;
-}
-
-.img1{
-   position:absolute;
-    width:250px;
-    height:300px;
-    margin-right: 200px;  
-    margin-bottom:50px;  
-}
-
-.img2{
-    position:absolute;
-    width:200px;
-    height:200px;
-    margin-top:120px ;
-    margin-left: 140px;
-    margin-bottom:50px;     
-}
-
-.kimg1{
-    width:68px;
-    border: 2px solid black;
-}
-
-
-
-.kimg2{
-    width:70px;
-    border: 2px solid black; 
+.dark{
+    color:darkgray;
+    font-size:xx-large;
+  
+    text-decoration: underline;
     
 }
 
 
-.div5{
-    display: grid;
-    display: inline;
-    grid-template-columns: 4;
-    width:300px;
-    height:70px;
-    background-color: white;
-    margin-top:370px; 
-    margin-bottom:30px;
-}
-
-
-.btn1{
-color:white;
-background-color: red;
-}
-
-.btn2{
-    color:white;
-    background-color:green;
-}
-.btn3{
-    color:rgb(0, 0, 0);
-    background-color: yellow;
-}
-.box2{
+.grey{
+    color:darkgray;
+    font-size:xx-large;
    
-   
-margin-left:230px;
-    width:310px;
-    height:420px;
 }
 
 
-
-.item_1 {
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    position: absolute;
-    background-color: greenyellow;
-    width: 300px;
-    height: 420px;
-    margin-right: 300px;
-    border-radius: 10px;
-
+.beshyuz{
+    color:black;
 }
 
+.dollr{
+    color:rgb(219, 201, 41);
+    font-size:xx-large;  
+}
+.doll{
+    color:darkgrey;
+    font-size:xx-large; 
+}
 
-.btn{
-    margin-left: 55px;
-    display: inline-block;
-    background-color: red;
-    color: white;
-    padding: 15px 30px;
+.TEAM{
+    color:rgb(217, 228, 61);
+}
+.TEA{
+    color: rgb(91, 54, 126);
+}
+
+.dol{
+    color:rgb(91, 54, 126);
+    font-size:xx-large; 
+}
+
+.card{
     text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    border-radius: 10px;
-    text-decoration: none;
+    padding:20px;
+    margin: 0 20px;
 }
